@@ -1,0 +1,25 @@
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    padding: 2em 0 1.38em 1em;
+    gap: 1em;
+}
+
+.imagem__perfil {
+    border-radius: 50%;
+    height: 3.6em;
+}
+
+
+.titulo__titulo {
+    font-size: 1.38em;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    line-height: 160%;
+}
+
+.titulo__subtitulo {
+    font-size: 0.88em;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}

@@ -1,0 +1,116 @@
+.titulo__seçoes {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+
+.seçao {
+    background-color: var(--branco);
+    margin: 0 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.seçao__cabeçalho {
+    padding: 1.28rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.seçao__imagem {
+    border-radius: 50%;
+    height: 2rem;
+}
+
+.seçao__textos {
+    margin-right: auto;
+}
+
+.seçao__titulo {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    line-height: 160%;
+   
+}
+
+.seçao__subtitulo {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    line-height: 160%;
+    
+}
+
+.seçao__iconecamera {
+    width: 1rem;
+    margin-right: 0.25rem;
+}
+
+.seçao__iconechat {
+    height: 2rem;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid var(--cinza-borda);
+    
+}
+
+/* SEGUNDA PARTE DA SEÇÃO */
+
+.principal__cabeçalho {
+    padding: 0.5rem 0 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    line-height: 160%; 
+}
+
+.seçao__principal__botoes {
+    padding: 0 1rem 1rem 1rem;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.seçao__botoes__cor {
+    background-color: var(--laranja);
+    border-radius: 0.5rem;
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0.81rem 1rem;
+    font-size: 0.88rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.seçao__botoes {
+    text-decoration: none;
+    padding: 0.81rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--cinza-borda);
+    font-size: 0.88rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    width: 100%;
+}
+
+.seçao__botoes__cor2 {
+    background-color: var(--azul);
+    border-radius: 0.5rem;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    padding: 0.81rem 1rem;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.25rem 1rem 1.25rem;
+    align-items: center;
+    background-color: var(--branco);
+    width: 90%;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.funcionalidades {
+    text-align: center;
+}
+
+.footer__texto {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+}
+
+.footer__texto__cor {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--azul);
+}
+
+.footer__iconeflutuante {
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+}
+

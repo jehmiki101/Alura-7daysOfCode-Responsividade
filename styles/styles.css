@@ -1,0 +1,31 @@
+@import url(1header.css);
+@import url(2seçoes.css);
+@import url(3footer.css);
+
+
+
+:root {
+    --fonte: "montserrat", sans-serif;
+    --cinza-background: #f9f7fe;
+    --cinza-claro: #A3A3A3;
+    --cinza-escuro: #464646;
+    --cinza-borda: #ECECEC;
+    --branco: #ffffff;
+
+    --laranja: #FFB050;
+    --azul: #4894FF;
+
+}
+
+body {
+    font-family: var(--fonte);
+    font-style: normal;
+    background: var(--cinza-background);
+    padding-bottom: 3.82rem;
+}
+
+footer {
+    font-family: var(--fonte);
+    font-style: normal;
+    background: var(--cinza-background);
+}
