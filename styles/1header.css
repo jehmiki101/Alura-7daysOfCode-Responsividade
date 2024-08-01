@@ -22,4 +22,18 @@
     font-size: 0.88em;
     font-weight: 400;
     color: var(--cinza-claro);
+    line-height: 160%;
+}
+
+@media screen and (min-width: 1440px) {
+    .imagem__perfil {
+        height: 6rem;
+    }
+    
+    .titulo__titulo {
+        font-size: 1.93rem;
+    }
+    .titulo__subtitulo {
+        font-size: 1.13rem;
+    }
 }

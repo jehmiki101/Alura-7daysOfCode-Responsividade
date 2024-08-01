@@ -3,16 +3,17 @@
     bottom: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 1.25rem 1rem 1.25rem;
     align-items: center;
     background-color: var(--branco);
-    width: 90%;
+    width: 100%;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
+    box-shadow: 4px 0px 4px 4px rgb(0, 0, 0, 0.06);
 }
 
 .funcionalidades {
     text-align: center;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
 }
 
 .footer__texto {
@@ -27,9 +28,106 @@
     color: var(--azul);
 }
 
-.footer__iconeflutuante {
+
+/*  MENU FOOTER FLUTUANTE 1 */
+
+.menu__pin {
     position: fixed;
-    bottom: 4rem;
+    bottom: 9.5rem;
     right: 1rem;
+    height: 4rem;
+}
+
+.footer__menuflutuante {
+    display: none;
+}
+
+.container__botao {
+    position: fixed;
+    bottom: 10.8rem;
+    height: 1.5rem;
+    width: 14.2rem;
+    right: 6rem;
+    border-radius: 1rem;
+    border: 1px solid var(--cinza-claro);
+    display: none;
+}
+
+.container__botao::placeholder {
+    text-align: center;
+}
+
+.footer__menuflutuante:checked ~ .container__botao {
+    display: block;
+}
+/*  MENU FOOTER FLUTUANTE 2 */
+
+.menu__pin_2 {
+    position: fixed;
+    bottom: 6.5rem;
+    right: 1rem;
+    height: 4rem;
+}
+
+.footer__menuflutuante_2 {
+    display: none;
+}
+
+.container__botao_2 {
+    position: fixed;
+    bottom: 7.8rem;
+    height: 1.5rem;
+    width: 10.2rem;
+    right: 6rem;
+    border-radius: 1rem;
+    border: 1px solid var(--cinza-claro);
+    display: none;
+}
+
+.container__botao_2::placeholder {
+    text-align: center;
+}
+
+.footer__menuflutuante_2:checked ~ .container__botao_2 {
+    display: block;
+}
+
+/* MENU FOOTER FLUTUANTE GERAL */
+
+.footer__flutuante {
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+}
+
+.menu__mais:focus {
+    opacity: 1rem;
+
+}
+
+.menu__mais {
+    display: none;
+    
+}
+
+.menu__flutuante {
+    display: none;
+}
+
+.menu__mais:checked ~ .menu__flutuante {
+    display: block;
+    
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+        width: 100%;
+        justify-content: center;
+        gap: 2.25rem;
+        
+    }
 }
 

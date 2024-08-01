@@ -17,6 +17,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    min-width: 20rem;
 }
 
 .seçao__imagem {
@@ -113,4 +114,16 @@ hr {
     font-weight: 500;
     padding: 0.81rem 1rem;
     width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .grupo__seçoes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex: 50%;
+    }
+
+
 }
